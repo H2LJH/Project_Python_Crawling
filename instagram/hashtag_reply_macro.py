@@ -38,7 +38,7 @@ def parse(page_code):
         link_addr = one.find('a')['href']
         print(insta_link + link_addr)
         links.append((insta_link + link_addr))
-        return links
+    return links
 
 time.sleep(3)
 page_code = driver.page_source
