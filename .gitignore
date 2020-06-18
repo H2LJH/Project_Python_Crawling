@@ -130,6 +130,8 @@ dmypy.json
 
 # driver exe
 *.exe
+*.msi
 
 # .idea 
 .idea 
+
