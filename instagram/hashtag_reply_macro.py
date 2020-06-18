@@ -23,10 +23,10 @@ driver.find_element_by_xpath('//*[@id="react-root"]/section/main/div/article/div
 driver.find_element_by_xpath('//*[@id="react-root"]/section/main/div/article/div/div[1]/div/form/div[4]/button/div').click()
 
 # 3. HashTag Serching
-time.sleep(2)
+time.sleep(2) 
 hash_url = 'https://www.instagram.com/explore/tags/%EC%95%84%EC%9D%B4%EC%A6%88%EC%9B%90/'
 driver.get(hash_url)
-"""""
+
 # 4. Board List Input & Ouput
 def parse(page_code):
     soup = BeautifulSoup(page_code, 'html.parser')
@@ -62,4 +62,3 @@ for url in links:
         driver.find_elements_by_xpath('//*[@id="react-root"]/section/main/div/div/article/div[2]/section[3]/div/form/button').click()
     except Exception as e:
         print(e)
-"""
