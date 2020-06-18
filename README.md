@@ -7,6 +7,7 @@
 
 # Project 1 : Python Crawling Study
   * Beautifulsoup4 module 사용
+  * Crawling 원리 이해 하기
 
 # Project 2 : Python instagrm Macro
 Python 기반의  selenium(feat: Chrome Driver)를 사용
