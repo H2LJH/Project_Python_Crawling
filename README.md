@@ -1,4 +1,4 @@
-# Project_Python_instagrmMacro
+# Project : Python instagrm Macro
 Python 기반의  selenium(feat: Chrome Driver)를 사용
   * 인스타그램 로그인 
   * 인스타그램 해시태그 
