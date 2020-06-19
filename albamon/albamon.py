@@ -3,13 +3,10 @@ import time
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-
-#div.gListWrap tbody tr
 cnt = 0
 page = 1
 timer = time.time()
 while True:
-
     url = 'http://www.albamon.com/list/gi/mon_gi_tot_list.asp?page={}&scd='.format(page)
     resp = requests.get(url)
 
