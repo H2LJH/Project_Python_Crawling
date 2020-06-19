@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import movie.persistence.MongoDAO as DAO
+import study_crawl.movie.persistence.MongoDAO as DAO
 
 # 객체생성
 mDao = DAO.MongoDAO()
@@ -32,10 +32,10 @@ while(True):
         reg_dt = reply.select('span.info_append')[0].text.strip()#[:10]
 
 
-        print('작성자 : ', writer)
-        print('평점 : ', grade)
-        print('리뷰 : ', review)
-        print('등록일 : ', reg_dt)
+        print('작성자 :', writer)
+        print('평점 :', grade)
+        print('리뷰 :', review)
+        print('등록일 :', reg_dt)
 
         #
         index_val = reg_dt.index(',')
